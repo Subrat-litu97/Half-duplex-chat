@@ -26,6 +26,7 @@ class client(Thread):
 
 serversocket.listen(5)
 print("Sender is ready to listen")
+print("click to go...")
     
 clientsocket, address = serversocket.accept()
 print("Reciever " + str(address) + " connected")
